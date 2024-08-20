@@ -15,7 +15,7 @@ export const getServerSideProps = async (
 };
 
 const Landing: NextPage<any> = (props: any) => {
-    // const { setLoading } = useContext(loaderContext);
+    // const { loading, setLoading } = useContext(loaderContext);
 
     console.log('props', props);
 
