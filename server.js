@@ -14,6 +14,6 @@ app.prepare().then(() => {
     }).listen(port, (err) => {
         if (err) throw err;
 
-        console.log(`Ready on config url at:${port} ${process.env.PORT}`);
+        console.log(`Ready at url localhost:${port} `);
     });
 });
